@@ -1,0 +1,51 @@
+#flex-container {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    border: solid thin yellow;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.form-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px 5px;
+}
+
+.form-component {
+    background-color: beige;
+}
+
+.inline-fieldset {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10%;
+}
+
+.banner {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 15%;
+    padding: 5px 10px 5px;
+    width: 50%;
+}
+
+.bordered {
+    display: inline;
+    border: solid thin grey;
+    justify-content: space-between;
+}
+
+.submit_btn {
+    border: solid thin peru;
+    border-radius: 15px;
+    background: yellow;
+    align-items: center;
+}
